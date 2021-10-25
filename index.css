@@ -1,0 +1,191 @@
+body {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+header {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/08/logistic-54-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+    padding: 4%;
+}
+
+header h1 {
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFF;
+    line-height: 1.13em;
+}
+
+header p {
+    font-family: 'Nunito Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+a { 
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 25px  40px;
+    color: #FFFFFF;
+    background-color: #ff7d44;
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+    transition: 350ms;
+}
+
+a:hover {
+    background: transparent;
+    border: solid #fff;
+    transition: 350ms;
+}
+
+header a {
+    margin-bottom: 220px;
+}
+
+.section_6div {
+    background-color: #f5f5f5;
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/08/logistic-54-6c3.png);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    box-shadow: inset 0px -188px 0px 0px #ffffff;
+    padding-top: 70px;
+    height: 900px;
+}
+
+.orange {
+    color: #ff7d44;
+}
+
+.six_div_titre {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+}
+
+.six_div_titre h2 {
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #202020;
+    line-height: 1.35em;
+    margin-right: 470px;
+    width: 95%;
+}
+
+.six_div_titre a:hover {
+    border: solid #ff7d44;
+    color: #ff7d44;
+}
+
+.six_boites {
+    display: flex;
+    max-width: 65%;
+    margin: auto;
+    justify-content: center;
+}
+
+.six_boites div div {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 20px; 
+
+    transition: 300ms;
+    box-shadow: 2px 3px 40px 0px rgb(0 0 0 / 15%);
+}
+
+.six_boites div div:hover {
+    box-shadow: 5px 6px 80px 0px rgb(0 0 0 / 15%);
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.six_boites div div p {
+    font-family: 'Nunito Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    color: #464646;
+    padding-right: 80px;
+}
+
+.six_boites a {
+    background-color: transparent;
+    color: #ff7d44;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.six_boites a:hover {
+    color: black;
+    border: none;
+}
+
+.section_2 {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1399px) {
+       header h1 {
+           font-size: 55px;
+       }
+
+       header p {
+           font-size: 20px;
+       }
+
+       .six_div_titre {
+           width: 80%;
+       }
+
+       .six_div_titre h2 {
+           width: 80%;
+           margin-right: 300px;
+       }
+
+       .six_boites {
+           max-width: 80%;
+       }
+}
+
+@media screen and (max-width: 991px) {
+    header h1 {
+        font-size: 48px;
+    }
+
+    header p {
+        font-size: 18px;
+        margin-bottom: 80px;
+    }
+
+    .six_div_titre {
+        display: block;
+    }
+
+    .six_div_titre h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .six_boites {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+
+}
