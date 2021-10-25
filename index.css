@@ -60,7 +60,6 @@ header a {
     padding-bottom: 0px;
     box-shadow: inset 0px -188px 0px 0px #ffffff;
     padding-top: 70px;
-    height: 900px;
 }
 
 .orange {
@@ -135,19 +134,20 @@ header a {
 
 .section_2 {
     display: flex;
-    margin-top: 100px !important;
+    margin-top: 3% !important;
     width: 60%;
-    margin: auto;   
+    margin: auto;
+    margin-bottom: 80px;
 }
 
 .double_img {
     background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/08/logistic-54-1.jpg);
     background-repeat: no-repeat;
-    height: 600px;
+    width: 100%;
 }
 
 .section_2_texte {
-    padding-left: 90px;
+    margin-left: 5%;
     padding-top: 30px;
 }
 
@@ -166,9 +166,77 @@ header a {
     margin-top: -6px;
 }
 
+.section_2 a {
+    margin-bottom: 2%;
+}
+
 .section_2 a:hover {
     border: solid #ff7d44;
     color: #ff7d44;
+}
+
+.flex_icones {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+.flex_icones img {
+    width: 100px;
+}
+
+.flex_icones a {
+    text-align: center;
+    background-color: transparent;
+}
+
+.flex_icones a:hover {
+    background-color: none;
+    opacity: 50%;
+    border: none;
+}
+
+.bateau {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/08/logistic-54-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 900px;
+}
+
+.bateau h2 {
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #FFFFFF!important;
+    line-height: 1.35em;
+    text-align: left;
+}
+
+.bateau p {
+    font-family: 'Nunito Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #fff;
+}
+
+.bateau_txt {
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.div_points {
+    display: flex;
+}
+
+.div_points div div {
+    display: flex;
+    align-items: center;
+}
+
+.div_points img {
+    height: fit-content;
 }
 
 @media screen and (max-width: 1399px) {
@@ -191,6 +259,14 @@ header a {
 
        .six_boites {
            max-width: 80%;
+       }
+
+       .section_2 {
+           width: 90%;
+       }
+
+       .double_img {
+           width: 70%;
        }
 }
 
@@ -217,9 +293,31 @@ header a {
         display: block;
         max-width: 100%;
     }
+
+    .section_2 {
+        display: block;  
+    }
+
+    .double_img {
+        height: 600px;
+        width: 100%;
+    }
+
+    .flex_icones {
+        width: 90%;
+        text-align: left;
+    }
+
+    .flex_icones a {
+        width: 49%;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
-
+    
+    .flex_icones a {
+        width: 90%;
+    }
 
 }
