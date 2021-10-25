@@ -134,7 +134,41 @@ header a {
 }
 
 .section_2 {
-    margin-top: 100px;
+    display: flex;
+    margin-top: 100px !important;
+    width: 60%;
+    margin: auto;   
+}
+
+.double_img {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/08/logistic-54-1.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.section_2_texte {
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.section_2 h2 {
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #202020;
+    line-height: 1.35em;
+}
+
+.section_2 p {
+    font-family: 'Nunito Sans',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.8em;
+    color: #464646;
+    margin-top: -6px;
+}
+
+.section_2 a:hover {
+    border: solid #ff7d44;
+    color: #ff7d44;
 }
 
 @media screen and (max-width: 1399px) {
