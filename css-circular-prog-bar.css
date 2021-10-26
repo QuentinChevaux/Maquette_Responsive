@@ -1,11 +1,10 @@
 .progress-circle {
    font-size: 20px;
-   margin: 20px;
    position: relative; /* so that children can be absolutely positioned */
    padding: 0;
    width: 5em;
    height: 5em;
-   background-color: #F2E9E1; 
+   background-color: #FFFFFF1A; 
    border-radius: 50%;
    line-height: 5em;
 }
@@ -20,7 +19,7 @@
     border-radius: 50%;
     width: 4.3em;
     height: 4.3em;
-    background-color: white;
+    background-color: #ff7d44;
     content: " ";
 }
 /* Text inside the control */
@@ -30,7 +29,7 @@
     width: 5em;
     text-align: center;
     display: block;
-    color: #53777A;
+    color: white;
     z-index: 2;
 }
 .left-half-clipper { 
@@ -54,7 +53,7 @@
    width: 5em;
    height: 5em;
    border-radius: 50%;
-   border: 0.45em solid #53777A; /*The border is 0.35 but making it larger removes visual artifacts */
+   border: 0.45em solid white; /*The border is 0.35 but making it larger removes visual artifacts */
    /*background-color: #4D642D;*/ /* for debug */
    box-sizing: border-box;
   

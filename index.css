@@ -254,6 +254,45 @@ header a {
     background-color: #ff7d44;
 }
 
+.pourcentage>div{
+    display: flex;
+    justify-content: center;
+}
+
+.colone {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.pourcentage_txt {
+    margin-left: 10%;
+}
+
+.pourcentage h3 {
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 0.2em;
+}
+
+.pourcentage h2 {
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+    line-height: 1.1em;
+}
+
+.pourcentage p {
+    color: #FFFFFF;
+    font-family: 'Nunito Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
 @media screen and (max-width: 1399px) {
        header h1 {
            font-size: 55px;
