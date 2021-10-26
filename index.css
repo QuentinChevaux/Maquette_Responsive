@@ -4,6 +4,9 @@ body {
     margin-right: 0;
 }
 
+/* PROGRESS BAR */
+
+
 header {
     background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/08/logistic-54-4.jpg);
     background-repeat: no-repeat;
@@ -247,6 +250,10 @@ header a {
     margin-bottom: 70px;
 }
 
+.pourcentage {
+    background-color: #ff7d44;
+}
+
 @media screen and (max-width: 1399px) {
        header h1 {
            font-size: 55px;
@@ -318,6 +325,12 @@ header a {
 
     .flex_icones a {
         width: 49%;
+    }
+
+    .bateau_txt {
+        padding-left: 5%;
+        padding-top: 2%;
+        width: 90%;
     }
 
 }
